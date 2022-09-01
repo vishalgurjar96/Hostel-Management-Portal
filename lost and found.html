@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+        <link rel="stylesheet" href="form.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
+	<body id="loginpg">
+        <ul>
+            <li><a  href="Home.html">Home</a></li>
+            <li><a href="search.html"> Details</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="lost and found.html">Lost/Found Form</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+		<h1></h1>
+		<form id="loginForm">
+            <h1>Lost and Found</h1>
+            <div class="inline">
+                <h6> <a href = "https://docs.google.com/spreadsheets/d/16AK1UGBBc6lVlWOkyMNU1vct1S7WoX_HO59Ub0sXSYI/edit?usp=sharing">Lost Found Sheet Link </a> </h6>
+            </div>
+            <fieldset>
+                <label for="Entry Numbers">Name</label>
+                <input type="text" id="Entry Numbers" name="Entry Number">
+                <label for="Entry Number">Phone Number</label>
+                <input type="text" id="Entry Number" name="Entry Number">
+                <label for="Issues Faced">Lost/Found :</label>
+                <select id="Issues Faced" name="Issues Faced">
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option value= "Found">Found</option>
+                    <option value= "Lost">Lost</option>
+                </select>
+                <label for="Password"> Description : </label>
+                <textarea id="Password"></textarea> 
+            </fieldset>
+            <input type="button" class="button" value="Submit"  onclick="submitLoss()">
+        </form>  
+		<script src="details.js"></script>
+	</body>
+</html>

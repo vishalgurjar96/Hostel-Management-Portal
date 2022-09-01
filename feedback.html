@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Feedback</title>
+		<link rel="stylesheet" href="form.css">
+        <script src="https://kit.fontawesome.com/c5443651b0.js" crossorigin="anonymous"></script>
+	</head>
+	<body id="loginpg">
+        
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="search.html">Details</a></li>
+            <li><a class="active" href="feedback.html">Feedback</a></li>
+            <li><a  href="lost and found.html">Lost And Found</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        
+        <!-- Login Form -->
+        <form id="loginForm">
+            <h1>Feedback</h1>
+            <h6><a href="https://docs.google.com/forms/d/1oxQMcPUKmA-dXqN3cE1i3-NOA2NlPijzv4suaSIL7XA/edit">Urgent Complaint</a></h6>
+            <fieldset>
+                <label for="Issues Faced">Issues Faced</label>
+                <select id="Issues Faced" name="Issues Faced">
+					<option value="none" selected disabled hidden>Select an Option</option>
+					<option value="Almirah">Almirah</option>
+					<option value="Light">Lighting Problem</option>
+					<option value="Door">Broken Door Lock</option>
+					<option value="Table and Chair"> Table or Chair</option>
+                    <option value="Internet">Internet Issues</option>
+                    <option value="Fan">Fan</option>
+                    <option value="Keys">Room Keys</option>
+                    <option value="Window and Curtain">Window and Curtain </option>
+                    
+                 
+				
+                    
+                    <option value="Geyser">Geyser</option>
+                    <option value="Mirror">Mirror</option>
+                    <option value="Washbasin">Washbasin</option>
+                    <option value="Shower">Shower</option>
+                    <option value="Light">Light</option>
+                
+               
+             
+                   
+                    <option value="Drinking Water">Drinking Water</option>
+                    <option value="Staircase">Staircase</option>
+                    <option value="Lift">Lift</option>
+                    <option value="Guest Room">Guest Room</option>
+                    <option value="Sports Equipment">Sports Equipment</option>
+                </select>
+                
+            
+
+
+                <label for="remarks">Details of the Issue</label>
+                <textarea id="remarks" name="suggestions" rows="12" cols="70"></textarea>
+            </fieldset>
+            <!-- Submit Button -->
+            <input type="button" class="button" value="Submit" onclick="postProblem()">
+        </form>  
+	</body>
+    <script src="details.js" ></script>
+</html>

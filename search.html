@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>IIT Ropar Hostels</title>
+        <link rel="stylesheet" href="search.css">
+		<link rel="stylesheet" href="form.css">
+	</head>
+	<body id="loginpg">
+        <ul>
+            <li><a  href="Home.html">Home</a></li>
+            <li><a class="active" href="search.html"> Details</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="lost and found.html">Lost And Found</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <!-- Login Form -->
+        <form id="loginForm">
+            <fieldset>
+                <label for="Entry Number">Entry Number:</label>
+                <input type="text" id="EntryId" name="Entry Number">
+            </fieldset>
+            <!-- Submit Button -->
+            <input type="button" class="button" value="Search Details" onclick="getDetail()">
+        </form>  
+        <div id = "detail" class="wrap">
+            <div class="content">
+                <table style="width:100%">
+                <tr>
+                    <th>Name</th>
+                    <th>Roll number </th>
+                    <th>Hostel Name</th>
+                    <th>Room Number</th>
+                    <th>Contact Number</th>
+                </tr>
+                <tr>
+                    <td id = "name"></td>
+                    <td id = "RollNumber"></td>
+                    <td id = "Hostel"></td>
+                    <td id = "RoomNo"></td>
+                    <td id = "PhoneNo"></td>
+                </tr>
+                </table>
+            </div>
+            
+        </div>
+        
+	</body>
+	<script src="details.js" ></script>
+</html>

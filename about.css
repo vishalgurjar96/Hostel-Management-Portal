@@ -1,0 +1,68 @@
+/* Background Image */
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #384047;
+	background: url(pcdep3.png);
+	background-size: cover;
+	/* background-position: center; */
+
+}
+/* Navbar Styling */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+/* Info Box Styling */
+.box{
+    width: 700px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Box Text Styling */
+h1,h2,h5{
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+/* .box p{
+    text-align: justify;
+} */
+#desc{
+    font-weight: 600;
+}
